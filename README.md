@@ -51,3 +51,10 @@ pyinstaller --onefile --noconsole git_clone_tool.py
 5. 日志区实时显示进度，完成后历史记录自动更新
 
 历史记录存储在程序同目录的 `clone_history.json` 文件中。
+
+## Vibe Coding
+
+本项目由 [Claude Code](https://claude.ai/code) 辅助开发，通过自然语言对话完成从需求分析、UI 设计到代码实现的全流程。没有手写一行代码，全靠"聊天写代码" —— 这就是 Vibe Coding。
+
+🫡 致敬 [Vibe Coding](https://x.com/karpathy/status/1887422622618787911) 精神。
+
