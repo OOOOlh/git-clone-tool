@@ -8,8 +8,6 @@ __pycache__/
 
 # PyInstaller 构建产物
 build/
-dist/
+dist/*
+!dist/Git_Clone_Tool.exe
 *.spec
-
-# 生成的图标
-clone_icon.ico

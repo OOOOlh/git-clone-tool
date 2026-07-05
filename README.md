@@ -25,7 +25,11 @@ git config --global --unset http.https://github.com.proxy
 
 ## 运行方式
 
-### 方式一：运行 Python 脚本
+### 方式一：直接下载 exe（推荐）
+
+从 `dist/` 目录下载 `Git_Clone_Tool.exe`，双击即可运行，无需安装 Python。
+
+### 方式二：运行 Python 脚本
 
 ```bash
 python git_clone_tool.py
@@ -33,14 +37,14 @@ python git_clone_tool.py
 
 需要 Python 3.6+，`tkinter` 为 Python 标准库，无需额外安装。
 
-### 方式二：打包为 exe
+### 方式三：自行打包
 
 ```bash
 pip install pyinstaller
-pyinstaller --onefile --noconsole git_clone_tool.py
+pyinstaller --onefile --noconsole --icon=clone_icon.ico --name "Git_Clone_Tool" git_clone_tool.py
 ```
 
-打包后的 exe 在 `dist/` 目录下，双击即可运行。
+打包后的 exe 在 `dist/` 目录下。
 
 ## 使用说明
 
