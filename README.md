@@ -2,6 +2,8 @@
 
 一个带代理支持的 Git 克隆 GUI 工具，适用于需要通过 VPN/代理访问 GitHub 的场景。
 
+![screenshot](screenshot.png)
+
 ## 背景
 
 在中国大陆使用终端命令行克隆 GitHub 仓库时，经常遇到网络不稳定需要走 VPN 的情况。但终端默认不走系统 VPN，每次都需要手动执行：
