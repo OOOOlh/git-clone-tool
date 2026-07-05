@@ -1,0 +1,15 @@
+# 历史记录 & 配置（含代理端口等敏感信息）
+clone_history.json
+config.json
+
+# Python
+__pycache__/
+*.pyc
+
+# PyInstaller 构建产物
+build/
+dist/
+*.spec
+
+# 生成的图标
+clone_icon.ico
